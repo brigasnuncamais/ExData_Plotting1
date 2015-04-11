@@ -1,4 +1,30 @@
-## Introduction
+---  
+title: "Exploratory Data Analysis Course Project 1"
+author: "brigasnuncamais"
+date: "Friday, April 10, 2015"
+output: html_document
+---  
+
+## Explanations to run the code
+
+There are 8 files for the Course Project 1: 4 png pictures and 4 corresponding scripts  
+
+To reproduce my work you need to do the following:  
+
+- Download the <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb] and put it into your R working directory   
+- Unzip the file `exdata-data-household_power_consumption.zip` at the same place   
+- Download the scripts (`plot1.R`, `plot2.R`, `plot3.R`, `plot4.R`) to your R working directory   
+- `plot_i.R` can be launched in RStudio by just sourcing the file, e.g.:  
+`source("plot1.R")`  
+- This will regenerate the corresponding png picture 
+
+Dependencies
+
+`plot_i.R` file will install for you the dependencies automatically. It depends on `sqldf`.
+
+## Initial instructions
+
+### Introduction
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
@@ -33,11 +59,7 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
-## Loading the data
-
-
-
-
+### Loading the data
 
 When loading the dataset into R, please consider the following:
 
@@ -58,7 +80,7 @@ functions.
 * Note that in this dataset missing values are coded as `?`.
 
 
-## Making Plots
+### Making Plots
 
 Our overall goal here is simply to examine how household energy usage
 varies over a 2-day period in February, 2007. Your task is to
